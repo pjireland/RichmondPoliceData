@@ -76,7 +76,7 @@ and select the `activity_map.ipynb` file.
 pip install googlemaps
 ```
 
-   It is used to obtain the latitude and longitude of police incidents to place them on the maps.
+   It is used to geocode (obtain the latitude and longitude) of police incidents.
 
 4. Sign up for a [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
