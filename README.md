@@ -84,3 +84,15 @@ pip install googlemaps
      for geocoding the police data, but be careful to not exceed your free allowance.
 
 ### Approach
+
+1. Run the command below to download and parse police reports:
+
+```
+bash get_police_reports.sh <API_KEY> <YEAR>
+```
+
+Replace `<API_KEY>` with your Google Maps API key and `<YEAR>` with the year you would like to analyze.
+
+2. Follow the directions in the **Approach** subsection **Level 2: Generate new maps from the existing dataset** 
+   above to generate new maps from the new data you have created.
+
