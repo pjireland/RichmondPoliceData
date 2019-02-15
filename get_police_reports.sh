@@ -16,7 +16,7 @@ curl http://www.co.wayne.in.us/cgi-bin/rms/mediarpd.pl?sdate=$YEAR > $f1.html
 echo "...done."
 echo "Parsing the Richmond Police Department Reports..."
 echo "    (Note: this may take some time.)"
-python parse_reports.py --filename $f1 --api-key $API_KEY
+python parse_reports.py --filename $f1.html --api-key $API_KEY
 echo "...done."
 
 echo "Downloading the Wayne County Police Department Reports..."
@@ -25,7 +25,7 @@ curl http://co.wayne.in.us/cgi-bin/rms/media.pl?sdate=$YEAR > $f2.html
 echo "...done."
 echo "Parsing the Wayne County Sheriff Reports..."
 echo "    (Note: this may take some time.)"
-python parse_reports.py --filename $f --api-key $API_KEY
+python parse_reports.py --filename $f2.html --api-key $API_KEY
 echo "...done."
 
 echo "Combining the reports..."
