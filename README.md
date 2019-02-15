@@ -47,15 +47,15 @@ and select the `activity_map.ipynb` file.
 
 2. Add additional police maps to the bottom of the notebook.  Some tips for adding these maps:
 
-  A. The command `create_map()` is called to generate the maps.
-  B. The following optional arguments can be passed:
-     - `add_dots`: `True` or `False`. `True` by default. Includes dots showing each recorded police activity.
+  * The command `create_map()` is called to generate the maps.
+  * The following optional arguments can be passed:
+    * `add_dots`: `True` or `False`. `True` by default. Includes dots showing each recorded police activity.
         More information can be obtained about the activity by clicking a dot.
-     - `static_heat_map`: `True` or `False`. `True` by default.  Includes a static heat map of the police 
+    * `static_heat_map`: `True` or `False`. `True` by default.  Includes a static heat map of the police 
         activity.
-     - `time_lapse_heat_map`: `True` or `False`. `False` by default.  Generates a month-by-month series
+    * `time_lapse_heat_map`: `True` or `False`. `False` by default.  Generates a month-by-month series
         of heat maps.
-     - `include`: Empty by default.  A list of words to limit the police activity to. If this argument is 
+    * `include`: Empty by default.  A list of words to limit the police activity to. If this argument is 
         not provided, all activity will be shown.
-     - `exclude`: Empty by default. Ignore police reports that contain any of the words in this list.
+    * `exclude`: Empty by default. Ignore police reports that contain any of the words in this list.
 
