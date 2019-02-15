@@ -78,7 +78,7 @@ pip install googlemaps
 
    It is used to geocode (obtain the latitude and longitude) of police incidents.
 
-4. Sign up for a [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+4. Sign up for a [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
    * Note that that while Google Maps API is a paid service, the monthly free allowances are typically sufficient
      for geocoding the police data, but be careful to not exceed your free allowance.
