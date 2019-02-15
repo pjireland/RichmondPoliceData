@@ -6,7 +6,7 @@ media reports (see https://sheriff.co.wayne.in.us/media-reports.html]
 and [http://www.co.wayne.in.us/rpdmedia.html, respectively).
 The data are taken from 2018 reports by default, but 
 a different date range can be selected if the user would like to customize
-these reports (see *Level 3: Generate New Reports* below).
+these reports (see **Level 3: Generate New Reports** below).
 
 There are three different levels to which a user can interact with these data,
 and the prerequisites and approach for each is given below.
@@ -49,13 +49,13 @@ and select the `activity_map.ipynb` file.
 
   A. The command `create_map()` is called to generate the maps.
   B. The following optional arguments can be passed:
-     i. `add_dots`: `True` or `False`. `True` by default. Includes dots showing each recorded police activity.
+     - `add_dots`: `True` or `False`. `True` by default. Includes dots showing each recorded police activity.
         More information can be obtained about the activity by clicking a dot.
-     ii. `static_heat_map`: `True` or `False`. `True` by default.  Includes a static heat map of the police 
+     - `static_heat_map`: `True` or `False`. `True` by default.  Includes a static heat map of the police 
         activity.
-     iii. `time_lapse_heat_map`: `True` or `False`. `False` by default.  Generates a month-by-month series
+     - `time_lapse_heat_map`: `True` or `False`. `False` by default.  Generates a month-by-month series
         of heat maps.
-     iv. `include`: Empty by default.  A list of words to limit the police activity to. If this argument is 
+     - `include`: Empty by default.  A list of words to limit the police activity to. If this argument is 
         not provided, all activity will be shown.
-     v. `exclude`: Empty by default. Ignore police reports that contain any of the words in this list.
+     - `exclude`: Empty by default. Ignore police reports that contain any of the words in this list.
 
