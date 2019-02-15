@@ -3,8 +3,8 @@
 This repository contains scripts and reports of the Richmond Indiana Police 
 Department and Wayne County Indiana Sheriff's Department activity, 
 as reported by these agencies in their
-media reports (see https://sheriff.co.wayne.in.us/media-reports.html]
-and [http://www.co.wayne.in.us/rpdmedia.html], respectively.
+media reports (see https://sheriff.co.wayne.in.us/media-reports.html
+and http://www.co.wayne.in.us/rpdmedia.html, respectively.
 The data are taken from 2018 reports by default, but 
 a different date range can be selected if the user would like to customize
 these reports (see **Level 3: Generate New Reports** below).
