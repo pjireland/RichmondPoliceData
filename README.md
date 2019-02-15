@@ -59,3 +59,28 @@ and select the `activity_map.ipynb` file.
         not provided, all activity will be shown.
     * `exclude`: Empty by default. Ignore police reports that contain any of the words in this list.
 
+## Level 3: Generate new reports
+
+### Prerequisites
+
+1. A shell with a `bash`.
+   * For Unix, Linux, and Mac systems, this should be included by default.
+   * For Windows machines, [git bash](https://gitforwindows.org/) can be installed to obtain a bash prompt.
+
+2. [Anaconda](https://www.anaconda.com/distribution/#download-section) and 
+   [Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html#id3)
+
+3. Python client library for Google Maps API Web Services.  This can be installed via the command
+
+```
+pip install googlemaps
+```
+
+   It is used to obtain the latitude and longitude of police incidents to place them on the maps.
+
+4. Sign up for a [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
+   * Note that that while Google Maps API is a paid service, the monthly free allowances are typically sufficient
+     for geocoding the police data, but be careful to not exceed your free allowance.
+
+### Approach
