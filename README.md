@@ -30,7 +30,13 @@ https://nbviewer.jupyter.org/github/pjireland/RichmondPoliceData/blob/master/act
 1. Install Jupyter using Anaconda and conda following the instructions
 [here](https://jupyter.readthedocs.io/en/latest/install.html#id3).
 
-2. Clone this repository:
+2. Install folium:
+
+```
+pip install folium
+```
+
+3. Clone this repository:
 
 ```
 git clone https://github.com/pjireland/RichmondPoliceData.git
